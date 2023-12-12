@@ -1,11 +1,20 @@
+@import "partials/classes";
+@import "partials/mixins";
+@import "partials/variables";
+
+
+
+
 .sass {
     background: red;
-    & h2{
+
+    & h2 {
         color: red;
         text-align: center;
         font-size: 30px;
-        & .rel{
-            & p{
+
+        & .rel {
+            & p {
                 color: #333;
             }
         }
