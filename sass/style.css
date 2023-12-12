@@ -1,0 +1,26 @@
+h2 {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #3b3b41;
+  color: #a2a5b9;
+}
+
+.sass {
+  background: red;
+}
+.sass h2 {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+.sass h2 .rel p {
+  color: #333;
+}/*# sourceMappingURL=style.css.map */

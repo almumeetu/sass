@@ -3,8 +3,17 @@
 @import "partials/variables";
 
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    @include theme(background, $color-light-bg, $color-dark-bg);
+    @include theme(color, $color-dark, $color-light);
 
+}
 .sass {
     background: red;
 
